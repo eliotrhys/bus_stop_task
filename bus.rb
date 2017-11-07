@@ -1,7 +1,6 @@
 class Bus
 
 
-
   def initialize(route, destination)
 
     @route = route
@@ -13,7 +12,6 @@ class Bus
   def bus_sound(sound)
     return sound
   end
-
 
   def bus_count
     return @passengers.length

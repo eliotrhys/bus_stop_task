@@ -9,10 +9,6 @@ class TestPerson < MiniTest::Test
     @tommy = Person.new("Tommy",19)
     @mikey = Person.new("Mikey",22)
     @steve = Person.new("Steve",34)
-
   end
-
-
-
-
+  
 end
